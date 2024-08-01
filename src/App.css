@@ -1,0 +1,30 @@
+body{
+  @apply min-h-screen min-w-[100vw] overflow-x-hidden bg-blue-bg ;
+  /* ::-webkit-scrollbar {display:none;} */
+}
+
+.page{
+  @apply w-screen min-h-screen bg-blue-bg  py-3 flex flex-col items-center justify-center;
+}
+
+.back-icon{
+  @apply text-white text-4xl absolute top-[50px] left-[4px] z-10
+}
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.coin-top{
+  @apply absolute top-0 w-full h-[100px] opacity-30 z-0
+}
+.coin-btm{
+  @apply absolute bottom-0 w-full h-[100px] opacity-30 z-0
+}
+.loader-cont{
+  @apply h-screen w-screen flex items-center justify-center
+}
+.loader-icon{
+  
+}
